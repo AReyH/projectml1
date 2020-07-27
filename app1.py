@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
+st.write('Test website by Arturo Rey')
 
 model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
 #user_input1 = st.text_input("Input Year")
